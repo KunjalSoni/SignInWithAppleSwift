@@ -1,0 +1,16 @@
+PODS:
+  - SignInWithAppleSwift (0.1.0)
+
+DEPENDENCIES:
+  - SignInWithAppleSwift (from `../`)
+
+EXTERNAL SOURCES:
+  SignInWithAppleSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SignInWithAppleSwift: ec4cef4de301729cadd118d358292c1c061c5563
+
+PODFILE CHECKSUM: 7db53e29bfc87818f901295a9ac4e16f27cd69e6
+
+COCOAPODS: 1.10.1

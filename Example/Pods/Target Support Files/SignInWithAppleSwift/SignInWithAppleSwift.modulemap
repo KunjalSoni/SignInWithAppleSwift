@@ -1,0 +1,6 @@
+framework module SignInWithAppleSwift {
+  umbrella header "SignInWithAppleSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
