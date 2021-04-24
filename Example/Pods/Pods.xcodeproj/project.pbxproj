@@ -7,72 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		291FCC3C71C971F9EE6CABDDB0C4FC3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3AB4969E5FF766BEDC252D274C20E556 /* Pods-SignInWithAppleSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E19C902C7311D6FFC966F479A3F2BC63 /* Pods-SignInWithAppleSwift_Example-dummy.m */; };
-		860E9EF5238DED1C73FD4BE0A8EAFB14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AE9E390157C2895FE16AB17E2A2E009F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A70EFE52AB5EE0D17BEC4D5F70BC1A1 /* ReplaceMe.swift */; };
-		C725D07EBC12613E2260D862821E3186 /* SignInWithAppleSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7213F49A7A5D0775475295733B22B0 /* SignInWithAppleSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8B874E81798A379796387B18CA2CA80 /* SignInWithAppleSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8F0D3B5BAC4DFA42A1D9760A74D627 /* SignInWithAppleSwift-dummy.m */; };
-		D12E964DDF57E092ADB327BC77CEF87A /* Pods-SignInWithAppleSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4464DF25B11EF451084C9A63F862C332 /* Pods-SignInWithAppleSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06464924002440D7C828A52006C783EE /* SignInWithAppleSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B433E8C1C77C7AB956FDFB3193B8AB1 /* SignInWithAppleSwift-dummy.m */; };
+		0FD3BAC37DD5C6643BBA233E976C6852 /* SignInWithAppleSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE56BF27F1E17AEEBE15B9967CFD0A /* SignInWithAppleSwift.swift */; };
+		2CE67C211DA1E7435A5045B9FA1F15D9 /* Pods-SignInWithAppleSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4464DF25B11EF451084C9A63F862C332 /* Pods-SignInWithAppleSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30CD16390B191A5487F417395609B9E0 /* SwiftKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E50C46D8B59DEC0895EBC924E7E1F9AB /* SwiftKeychainWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40AE423954548CCF7A7DDF52953D188A /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5E9472BF525BD3E705261568E5199 /* KeychainWrapper.swift */; };
+		564E7C26F327231D8EAB049E3B77AE71 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FEAAE1F19BDC26BAF62CC7FA30A96 /* KeychainItemAccessibility.swift */; };
+		7D9223C8C53A0AFAB1C479CF7921F64D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C013F1D311E3493A904C289841BC6E /* Foundation.framework */; };
+		7DE160C335B587422E714953E778D009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C013F1D311E3493A904C289841BC6E /* Foundation.framework */; };
+		860E9EF5238DED1C73FD4BE0A8EAFB14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C013F1D311E3493A904C289841BC6E /* Foundation.framework */; };
+		A255F6D1C17692A0A3F608226DB4A82E /* Pods-SignInWithAppleSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E19C902C7311D6FFC966F479A3F2BC63 /* Pods-SignInWithAppleSwift_Example-dummy.m */; };
+		B561F6B555B567F045EF3D58919DBE9E /* SwiftKeychainWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3B183F2B832E75AB78E4306742985 /* SwiftKeychainWrapper-dummy.m */; };
+		C1CF3EDDE94FCB95E8C88ABFD8BCE30D /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A13C295E7C382084895BEAEFCA44CDB /* SwiftKeychainWrapper.framework */; };
+		D4E3F2EE4FA8EE54212FDDF4A2E8D039 /* SwiftKeychainWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E305D3EE71B912A8108E1C1BA65FF413 /* SwiftKeychainWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5AF85DBEB85EC257918AAED83E2E502 /* Pods-SignInWithAppleSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54AF8DCC29EED83731740F815AD6B07E /* Pods-SignInWithAppleSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEBC2D122510194E587623C8CE8DCB77 /* SignInWithAppleSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C59D14E6481BB4C195340F5E19D57B48 /* SignInWithAppleSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1B6CBA149B6A64DF505C763970F7406 /* KeychainWrapperSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17BC4ECF36B8D66C3A362BC3659967B /* KeychainWrapperSubscript.swift */; };
 		EE555211E300A5001551C37B4EB6D5C4 /* Pods-SignInWithAppleSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4396BA5AFDE42740CA171190ED6A5309 /* Pods-SignInWithAppleSwift_Tests-dummy.m */; };
-		FE165B95977CACD53967657E1D4CEB0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA0FD8CB3DA1AA34B61CD267F297D97E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C013F1D311E3493A904C289841BC6E /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		28C5A628B83D28BF1683F5A7D8A10B8B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F425032E84AA8226DA342DCA5FC887B5;
-			remoteInfo = "Pods-SignInWithAppleSwift_Example";
-		};
-		805694ECA759756294BB717D9A9CCBB0 /* PBXContainerItemProxy */ = {
+		5C106761086615857816CF50DF625959 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7D72D4162D482CEC1A4B27EE01369D01;
 			remoteInfo = SignInWithAppleSwift;
 		};
+		8EF2A003D2CEFC423FEDE43412C63DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF903DF43E111410ECA0C288D36FA21A;
+			remoteInfo = SwiftKeychainWrapper;
+		};
+		A3BCF49F018C801DD1DE23C96F11D303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F425032E84AA8226DA342DCA5FC887B5;
+			remoteInfo = "Pods-SignInWithAppleSwift_Example";
+		};
+		D3D41C4DC027FE7C15BD3C02E9776E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF903DF43E111410ECA0C288D36FA21A;
+			remoteInfo = SwiftKeychainWrapper;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0000D37DD9950BD9DB69FBE0C33D04FC /* Pods-SignInWithAppleSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignInWithAppleSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		26EC1DB56390B8274E582DCB7F6B37A7 /* SignInWithAppleSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SignInWithAppleSwift.modulemap; sourceTree = "<group>"; };
-		2A70EFE52AB5EE0D17BEC4D5F70BC1A1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SignInWithAppleSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		336A6DB80F6BC1F9C73C771413F5E42C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		345E9E6456B83A05BD469BC46440AB27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1651C3412BD1334CD935073C36639A5F /* SignInWithAppleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SignInWithAppleSwift.debug.xcconfig; sourceTree = "<group>"; };
+		2C1D48491A91549577DBBB0F708CFBC9 /* SignInWithAppleSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignInWithAppleSwift-prefix.pch"; sourceTree = "<group>"; };
 		35C1B26457AFA1A3BC0714B629900F88 /* Pods-SignInWithAppleSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignInWithAppleSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		401FEAAE1F19BDC26BAF62CC7FA30A96 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainItemAccessibility.swift; path = SwiftKeychainWrapper/KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		41D401BCE38F3EB83636B4780E37387C /* SignInWithAppleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SignInWithAppleSwift.release.xcconfig; sourceTree = "<group>"; };
 		4396BA5AFDE42740CA171190ED6A5309 /* Pods-SignInWithAppleSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SignInWithAppleSwift_Tests-dummy.m"; sourceTree = "<group>"; };
 		4464DF25B11EF451084C9A63F862C332 /* Pods-SignInWithAppleSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SignInWithAppleSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		50062E711288027EC99E33680555390F /* SignInWithAppleSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignInWithAppleSwift-prefix.pch"; sourceTree = "<group>"; };
+		4A13C295E7C382084895BEAEFCA44CDB /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftKeychainWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD3B183F2B832E75AB78E4306742985 /* SwiftKeychainWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftKeychainWrapper-dummy.m"; sourceTree = "<group>"; };
+		5069D199AB328CCD047E61C632CD7C32 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftKeychainWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54AF8DCC29EED83731740F815AD6B07E /* Pods-SignInWithAppleSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SignInWithAppleSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5EAAB3EF2586EDE51214376BE1D22F15 /* SignInWithAppleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SignInWithAppleSwift.release.xcconfig; sourceTree = "<group>"; };
-		5F737704D6F608A4B795B30865CF1414 /* Pods_SignInWithAppleSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SignInWithAppleSwift_Tests.framework; path = "Pods-SignInWithAppleSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE5E9472BF525BD3E705261568E5199 /* KeychainWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = SwiftKeychainWrapper/KeychainWrapper.swift; sourceTree = "<group>"; };
+		5CFB04FEB4458AA699A90B3398293537 /* SwiftKeychainWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftKeychainWrapper.debug.xcconfig; sourceTree = "<group>"; };
+		5F737704D6F608A4B795B30865CF1414 /* Pods_SignInWithAppleSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignInWithAppleSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D5FEC959314DA34074A0AB6A2DB40C /* Pods-SignInWithAppleSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SignInWithAppleSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		66A1EC832952C8C8FD3F4346A2B74B4A /* SwiftKeychainWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftKeychainWrapper-Info.plist"; sourceTree = "<group>"; };
 		690329E2F7677B5EA09D2CD1D08CE480 /* Pods-SignInWithAppleSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SignInWithAppleSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B8180C1DE63D2E187B339B8BC668368 /* SignInWithAppleSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SignInWithAppleSwift.modulemap; sourceTree = "<group>"; };
 		7471C9C0F978E0D2194BEFA7928E207E /* Pods-SignInWithAppleSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignInWithAppleSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		79C013F1D311E3493A904C289841BC6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7BCC778DE0E61DFA191507E9A76368DB /* Pods-SignInWithAppleSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SignInWithAppleSwift_Example.modulemap"; sourceTree = "<group>"; };
 		81FB53F24D76B7C455AC9205868B03BB /* Pods-SignInWithAppleSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SignInWithAppleSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8C77DA11B4B0612B649882A6F71C30C4 /* SignInWithAppleSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SignInWithAppleSwift-Info.plist"; sourceTree = "<group>"; };
-		8D430F241316E7745A4E30B1E47F83E8 /* SignInWithAppleSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SignInWithAppleSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8DB6AF8342D2F706515A5489E96DC821 /* Pods-SignInWithAppleSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SignInWithAppleSwift_Tests.modulemap"; sourceTree = "<group>"; };
 		94EAB25C78ABC134D41E8E3DF799D6A0 /* Pods-SignInWithAppleSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignInWithAppleSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		979499EEFEF69A7E481F911D2A62DE18 /* Pods-SignInWithAppleSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignInWithAppleSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B433E8C1C77C7AB956FDFB3193B8AB1 /* SignInWithAppleSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SignInWithAppleSwift-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2C46B2BFB3D71D5423BF14476691816 /* SignInWithAppleSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SignInWithAppleSwift-Info.plist"; sourceTree = "<group>"; };
 		A4F66B251C96EAD79B8E557C26D4BB9E /* Pods-SignInWithAppleSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SignInWithAppleSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A7B39917154E97EB2F7F5EFC197DB3BF /* Pods_SignInWithAppleSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SignInWithAppleSwift_Example.framework; path = "Pods-SignInWithAppleSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC7213F49A7A5D0775475295733B22B0 /* SignInWithAppleSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignInWithAppleSwift-umbrella.h"; sourceTree = "<group>"; };
-		CE1340F29EC6AEBAAFA67DE15D892227 /* SignInWithAppleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SignInWithAppleSwift.debug.xcconfig; sourceTree = "<group>"; };
+		A7B39917154E97EB2F7F5EFC197DB3BF /* Pods_SignInWithAppleSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignInWithAppleSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0B7CD4B822A45372F6735E9C4A2D8A /* SignInWithAppleSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SignInWithAppleSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF488A977815A1B45CDC7E94AAF1DEEC /* SwiftKeychainWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-prefix.pch"; sourceTree = "<group>"; };
+		C2DE56BF27F1E17AEEBE15B9967CFD0A /* SignInWithAppleSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignInWithAppleSwift.swift; path = SignInWithAppleSwift/Classes/SignInWithAppleSwift.swift; sourceTree = "<group>"; };
+		C59D14E6481BB4C195340F5E19D57B48 /* SignInWithAppleSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SignInWithAppleSwift-umbrella.h"; sourceTree = "<group>"; };
+		C7104D3630DB7CCC099AD4F0EC7E0FBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D17BC4ECF36B8D66C3A362BC3659967B /* KeychainWrapperSubscript.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainWrapperSubscript.swift; path = SwiftKeychainWrapper/KeychainWrapperSubscript.swift; sourceTree = "<group>"; };
+		D76622EC8B358A9F4B1B9A49385CB3A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E05A6FC530DC5A853665D015CB29AECE /* SwiftKeychainWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftKeychainWrapper.modulemap; sourceTree = "<group>"; };
 		E19C902C7311D6FFC966F479A3F2BC63 /* Pods-SignInWithAppleSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SignInWithAppleSwift_Example-dummy.m"; sourceTree = "<group>"; };
-		F08142FC95F5F64BF7F50D47B088DA1F /* SignInWithAppleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SignInWithAppleSwift.framework; path = SignInWithAppleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E305D3EE71B912A8108E1C1BA65FF413 /* SwiftKeychainWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-umbrella.h"; sourceTree = "<group>"; };
+		E50C46D8B59DEC0895EBC924E7E1F9AB /* SwiftKeychainWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftKeychainWrapper.h; path = SwiftKeychainWrapper/SwiftKeychainWrapper.h; sourceTree = "<group>"; };
+		EF9D370359AADCA0963C43618AAB128C /* SwiftKeychainWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftKeychainWrapper.release.xcconfig; sourceTree = "<group>"; };
+		F08142FC95F5F64BF7F50D47B088DA1F /* SignInWithAppleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignInWithAppleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A110AFC501FC589E83155454F66E66 /* Pods-SignInWithAppleSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SignInWithAppleSwift_Tests-Info.plist"; sourceTree = "<group>"; };
 		F855EB60A9261C05C9E3F0F10B4CCC9F /* Pods-SignInWithAppleSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SignInWithAppleSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FD8F0D3B5BAC4DFA42A1D9760A74D627 /* SignInWithAppleSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SignInWithAppleSwift-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		203C567F5AD1D98A6E4945016695F86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0FD8CB3DA1AA34B61CD267F297D97E /* Foundation.framework in Frameworks */,
+				C1CF3EDDE94FCB95E8C88ABFD8BCE30D /* SwiftKeychainWrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CABFF4BF8E162A3A0917F564AF2A2DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,19 +125,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79B00382B6B3906C24CBBB87C89E3576 /* Frameworks */ = {
+		76648ABA27FDCC768030AB971F235B4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE165B95977CACD53967657E1D4CEB0D /* Foundation.framework in Frameworks */,
+				7DE160C335B587422E714953E778D009 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA528E5B48DF07C2E5B2441FB8B70BC8 /* Frameworks */ = {
+		9812F8A3036F2D3B8377632BDC451C96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				291FCC3C71C971F9EE6CABDDB0C4FC3D /* Foundation.framework in Frameworks */,
+				7D9223C8C53A0AFAB1C479CF7921F64D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,28 +156,39 @@
 		0CDCD5C3BD9DBF457484DE74B9079F98 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5330599E95FE3133CA22F732E9A4B842 /* SignInWithAppleSwift */,
+				335C8BA41FF59DA5695F46D7D3D62704 /* SignInWithAppleSwift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5330599E95FE3133CA22F732E9A4B842 /* SignInWithAppleSwift */ = {
+		1E0E14E57BDC7190755B480ECFF41544 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A70EFE52AB5EE0D17BEC4D5F70BC1A1 /* ReplaceMe.swift */,
-				FBBB754C1D002913A2B50B452156DE2C /* Pod */,
-				A6271CA0B67B47FF3E37F22875FFB8A8 /* Support Files */,
+				A7B39917154E97EB2F7F5EFC197DB3BF /* Pods_SignInWithAppleSwift_Example.framework */,
+				5F737704D6F608A4B795B30865CF1414 /* Pods_SignInWithAppleSwift_Tests.framework */,
+				F08142FC95F5F64BF7F50D47B088DA1F /* SignInWithAppleSwift.framework */,
+				5069D199AB328CCD047E61C632CD7C32 /* SwiftKeychainWrapper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335C8BA41FF59DA5695F46D7D3D62704 /* SignInWithAppleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C2DE56BF27F1E17AEEBE15B9967CFD0A /* SignInWithAppleSwift.swift */,
+				C1C1F407A4C1E5AD78EF83406DA21E3D /* Pod */,
+				9263C1EC41B378CA86A2A935DA744A56 /* Support Files */,
 			);
 			name = SignInWithAppleSwift;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		4D9253D8D9382E21E72D01A5076FF530 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				FD889C92A54761B6B2F24356812B3E85 /* SwiftKeychainWrapper */,
 			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		67C540DB0CEEA70584184B302F19682B /* Pods-SignInWithAppleSwift_Example */ = {
@@ -153,29 +208,37 @@
 			path = "Target Support Files/Pods-SignInWithAppleSwift_Example";
 			sourceTree = "<group>";
 		};
-		719C149DBCA670BEDBDDC7664E7230B6 /* Products */ = {
+		9263C1EC41B378CA86A2A935DA744A56 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7B39917154E97EB2F7F5EFC197DB3BF /* Pods_SignInWithAppleSwift_Example.framework */,
-				5F737704D6F608A4B795B30865CF1414 /* Pods_SignInWithAppleSwift_Tests.framework */,
-				F08142FC95F5F64BF7F50D47B088DA1F /* SignInWithAppleSwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A6271CA0B67B47FF3E37F22875FFB8A8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				26EC1DB56390B8274E582DCB7F6B37A7 /* SignInWithAppleSwift.modulemap */,
-				FD8F0D3B5BAC4DFA42A1D9760A74D627 /* SignInWithAppleSwift-dummy.m */,
-				8C77DA11B4B0612B649882A6F71C30C4 /* SignInWithAppleSwift-Info.plist */,
-				50062E711288027EC99E33680555390F /* SignInWithAppleSwift-prefix.pch */,
-				CC7213F49A7A5D0775475295733B22B0 /* SignInWithAppleSwift-umbrella.h */,
-				CE1340F29EC6AEBAAFA67DE15D892227 /* SignInWithAppleSwift.debug.xcconfig */,
-				5EAAB3EF2586EDE51214376BE1D22F15 /* SignInWithAppleSwift.release.xcconfig */,
+				6B8180C1DE63D2E187B339B8BC668368 /* SignInWithAppleSwift.modulemap */,
+				9B433E8C1C77C7AB956FDFB3193B8AB1 /* SignInWithAppleSwift-dummy.m */,
+				A2C46B2BFB3D71D5423BF14476691816 /* SignInWithAppleSwift-Info.plist */,
+				2C1D48491A91549577DBBB0F708CFBC9 /* SignInWithAppleSwift-prefix.pch */,
+				C59D14E6481BB4C195340F5E19D57B48 /* SignInWithAppleSwift-umbrella.h */,
+				1651C3412BD1334CD935073C36639A5F /* SignInWithAppleSwift.debug.xcconfig */,
+				41D401BCE38F3EB83636B4780E37387C /* SignInWithAppleSwift.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SignInWithAppleSwift";
+			sourceTree = "<group>";
+		};
+		948FD862A0B69CF2EC5F2B17A7B48942 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				79C013F1D311E3493A904C289841BC6E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1C1F407A4C1E5AD78EF83406DA21E3D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C7104D3630DB7CCC099AD4F0EC7E0FBE /* LICENSE */,
+				D76622EC8B358A9F4B1B9A49385CB3A9 /* README.md */,
+				AF0B7CD4B822A45372F6735E9C4A2D8A /* SignInWithAppleSwift.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -183,18 +246,26 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				0CDCD5C3BD9DBF457484DE74B9079F98 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				719C149DBCA670BEDBDDC7664E7230B6 /* Products */,
+				FF634BBF095570B079CE9BAA1B513A86 /* Frameworks */,
+				4D9253D8D9382E21E72D01A5076FF530 /* Pods */,
+				1E0E14E57BDC7190755B480ECFF41544 /* Products */,
 				0C47918572D6EADC27A196049E23C21A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DBF7F7D339302EBCE551E5A9B4185871 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				E05A6FC530DC5A853665D015CB29AECE /* SwiftKeychainWrapper.modulemap */,
+				4CD3B183F2B832E75AB78E4306742985 /* SwiftKeychainWrapper-dummy.m */,
+				66A1EC832952C8C8FD3F4346A2B74B4A /* SwiftKeychainWrapper-Info.plist */,
+				AF488A977815A1B45CDC7E94AAF1DEEC /* SwiftKeychainWrapper-prefix.pch */,
+				E305D3EE71B912A8108E1C1BA65FF413 /* SwiftKeychainWrapper-umbrella.h */,
+				5CFB04FEB4458AA699A90B3398293537 /* SwiftKeychainWrapper.debug.xcconfig */,
+				EF9D370359AADCA0963C43618AAB128C /* SwiftKeychainWrapper.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftKeychainWrapper";
 			sourceTree = "<group>";
 		};
 		F72636C988B48E22F2221DA7E6C71C46 /* Pods-SignInWithAppleSwift_Tests */ = {
@@ -213,27 +284,30 @@
 			path = "Target Support Files/Pods-SignInWithAppleSwift_Tests";
 			sourceTree = "<group>";
 		};
-		FBBB754C1D002913A2B50B452156DE2C /* Pod */ = {
+		FD889C92A54761B6B2F24356812B3E85 /* SwiftKeychainWrapper */ = {
 			isa = PBXGroup;
 			children = (
-				345E9E6456B83A05BD469BC46440AB27 /* LICENSE */,
-				336A6DB80F6BC1F9C73C771413F5E42C /* README.md */,
-				8D430F241316E7745A4E30B1E47F83E8 /* SignInWithAppleSwift.podspec */,
+				401FEAAE1F19BDC26BAF62CC7FA30A96 /* KeychainItemAccessibility.swift */,
+				5AE5E9472BF525BD3E705261568E5199 /* KeychainWrapper.swift */,
+				D17BC4ECF36B8D66C3A362BC3659967B /* KeychainWrapperSubscript.swift */,
+				E50C46D8B59DEC0895EBC924E7E1F9AB /* SwiftKeychainWrapper.h */,
+				DBF7F7D339302EBCE551E5A9B4185871 /* Support Files */,
 			);
-			name = Pod;
+			path = SwiftKeychainWrapper;
+			sourceTree = "<group>";
+		};
+		FF634BBF095570B079CE9BAA1B513A86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A13C295E7C382084895BEAEFCA44CDB /* SwiftKeychainWrapper.framework */,
+				948FD862A0B69CF2EC5F2B17A7B48942 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		36B8BF33A5C9ACA30336FF9B10571ED6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D12E964DDF57E092ADB327BC77CEF87A /* Pods-SignInWithAppleSwift_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		604074A75A846F3C60500F659FC86FB9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,11 +316,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D19CDB613194EC35490D885A2C465AE /* Headers */ = {
+		ACDB3952EDCF8171E1B252D20DFD88D6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C725D07EBC12613E2260D862821E3186 /* SignInWithAppleSwift-umbrella.h in Headers */,
+				D4E3F2EE4FA8EE54212FDDF4A2E8D039 /* SwiftKeychainWrapper-umbrella.h in Headers */,
+				30CD16390B191A5487F417395609B9E0 /* SwiftKeychainWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEECC0613AB77D70012BB45F725DB12D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBC2D122510194E587623C8CE8DCB77 /* SignInWithAppleSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43DD6DF670201D4364C7EFB6C9306AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE67C211DA1E7435A5045B9FA1F15D9 /* Pods-SignInWithAppleSwift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +356,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7D09F25B10C8439721686B062FD71A10 /* PBXTargetDependency */,
+				5F29E9FDFD34EFBFF9F61DDF969E9F5A /* PBXTargetDependency */,
 			);
 			name = "Pods-SignInWithAppleSwift_Tests";
 			productName = "Pods-SignInWithAppleSwift_Tests";
@@ -274,35 +365,55 @@
 		};
 		7D72D4162D482CEC1A4B27EE01369D01 /* SignInWithAppleSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74CBE05A9CCE5F673B6ADACB5D3EA07C /* Build configuration list for PBXNativeTarget "SignInWithAppleSwift" */;
+			buildConfigurationList = 4DDB62A32A4DA66798ED0A92D8F3D37F /* Build configuration list for PBXNativeTarget "SignInWithAppleSwift" */;
 			buildPhases = (
-				8D19CDB613194EC35490D885A2C465AE /* Headers */,
-				79BF911CEEF32576366B7F98CB0697B0 /* Sources */,
-				79B00382B6B3906C24CBBB87C89E3576 /* Frameworks */,
-				CA431503CF055E437EC60DAE2C54B3B0 /* Resources */,
+				BEECC0613AB77D70012BB45F725DB12D /* Headers */,
+				6F71FFCB81E1F3B69A17D15DD0E05899 /* Sources */,
+				203C567F5AD1D98A6E4945016695F86D /* Frameworks */,
+				B8997E301561B1A5B22AE61504FDAE01 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3D01B05C74707C7B6A4E8CF031323A57 /* PBXTargetDependency */,
 			);
 			name = SignInWithAppleSwift;
 			productName = SignInWithAppleSwift;
 			productReference = F08142FC95F5F64BF7F50D47B088DA1F /* SignInWithAppleSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F425032E84AA8226DA342DCA5FC887B5 /* Pods-SignInWithAppleSwift_Example */ = {
+		CF903DF43E111410ECA0C288D36FA21A /* SwiftKeychainWrapper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B5591EF4E0E5AB6193059CF36459010 /* Build configuration list for PBXNativeTarget "Pods-SignInWithAppleSwift_Example" */;
+			buildConfigurationList = 767244CD7B829DA3FA5CA7882A75B74E /* Build configuration list for PBXNativeTarget "SwiftKeychainWrapper" */;
 			buildPhases = (
-				36B8BF33A5C9ACA30336FF9B10571ED6 /* Headers */,
-				FA23045123EB7E49B9CBAD8EFA434A31 /* Sources */,
-				BA528E5B48DF07C2E5B2441FB8B70BC8 /* Frameworks */,
-				CD59170C441A66B9F4B0311B27DC02C6 /* Resources */,
+				ACDB3952EDCF8171E1B252D20DFD88D6 /* Headers */,
+				9EE965259B9654D73224D00CFE819A08 /* Sources */,
+				76648ABA27FDCC768030AB971F235B4F /* Frameworks */,
+				6450A811A4981F73EF0E1550A1E5DBEA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8C41D9B6779A7916690000D144986832 /* PBXTargetDependency */,
+			);
+			name = SwiftKeychainWrapper;
+			productName = SwiftKeychainWrapper;
+			productReference = 5069D199AB328CCD047E61C632CD7C32 /* SwiftKeychainWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F425032E84AA8226DA342DCA5FC887B5 /* Pods-SignInWithAppleSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02170DB2A6F23B4C15BF15B21F70787C /* Build configuration list for PBXNativeTarget "Pods-SignInWithAppleSwift_Example" */;
+			buildPhases = (
+				F43DD6DF670201D4364C7EFB6C9306AA /* Headers */,
+				E944122E3CA34B2DB75A4A2183C7ACF4 /* Sources */,
+				9812F8A3036F2D3B8377632BDC451C96 /* Frameworks */,
+				6D53200FE0C8185D973BC5B1CBD1C7A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56E25F3FF68A1BDA98F0EB44A8C045D2 /* PBXTargetDependency */,
+				11877EB082A81A4FB7620DA23598B9B9 /* PBXTargetDependency */,
 			);
 			name = "Pods-SignInWithAppleSwift_Example";
 			productName = "Pods-SignInWithAppleSwift_Example";
@@ -327,26 +438,34 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 719C149DBCA670BEDBDDC7664E7230B6 /* Products */;
+			productRefGroup = 1E0E14E57BDC7190755B480ECFF41544 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F425032E84AA8226DA342DCA5FC887B5 /* Pods-SignInWithAppleSwift_Example */,
 				414EEC41FA92D2E82B786EA5E9C5AC86 /* Pods-SignInWithAppleSwift_Tests */,
 				7D72D4162D482CEC1A4B27EE01369D01 /* SignInWithAppleSwift */,
+				CF903DF43E111410ECA0C288D36FA21A /* SwiftKeychainWrapper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CA431503CF055E437EC60DAE2C54B3B0 /* Resources */ = {
+		6450A811A4981F73EF0E1550A1E5DBEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD59170C441A66B9F4B0311B27DC02C6 /* Resources */ = {
+		6D53200FE0C8185D973BC5B1CBD1C7A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8997E301561B1A5B22AE61504FDAE01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,37 +490,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79BF911CEEF32576366B7F98CB0697B0 /* Sources */ = {
+		6F71FFCB81E1F3B69A17D15DD0E05899 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9E390157C2895FE16AB17E2A2E009F /* ReplaceMe.swift in Sources */,
-				C8B874E81798A379796387B18CA2CA80 /* SignInWithAppleSwift-dummy.m in Sources */,
+				06464924002440D7C828A52006C783EE /* SignInWithAppleSwift-dummy.m in Sources */,
+				0FD3BAC37DD5C6643BBA233E976C6852 /* SignInWithAppleSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA23045123EB7E49B9CBAD8EFA434A31 /* Sources */ = {
+		9EE965259B9654D73224D00CFE819A08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AB4969E5FF766BEDC252D274C20E556 /* Pods-SignInWithAppleSwift_Example-dummy.m in Sources */,
+				564E7C26F327231D8EAB049E3B77AE71 /* KeychainItemAccessibility.swift in Sources */,
+				40AE423954548CCF7A7DDF52953D188A /* KeychainWrapper.swift in Sources */,
+				E1B6CBA149B6A64DF505C763970F7406 /* KeychainWrapperSubscript.swift in Sources */,
+				B561F6B555B567F045EF3D58919DBE9E /* SwiftKeychainWrapper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E944122E3CA34B2DB75A4A2183C7ACF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A255F6D1C17692A0A3F608226DB4A82E /* Pods-SignInWithAppleSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7D09F25B10C8439721686B062FD71A10 /* PBXTargetDependency */ = {
+		11877EB082A81A4FB7620DA23598B9B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-SignInWithAppleSwift_Example";
-			target = F425032E84AA8226DA342DCA5FC887B5 /* Pods-SignInWithAppleSwift_Example */;
-			targetProxy = 28C5A628B83D28BF1683F5A7D8A10B8B /* PBXContainerItemProxy */;
+			name = SwiftKeychainWrapper;
+			target = CF903DF43E111410ECA0C288D36FA21A /* SwiftKeychainWrapper */;
+			targetProxy = 8EF2A003D2CEFC423FEDE43412C63DAC /* PBXContainerItemProxy */;
 		};
-		8C41D9B6779A7916690000D144986832 /* PBXTargetDependency */ = {
+		3D01B05C74707C7B6A4E8CF031323A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftKeychainWrapper;
+			target = CF903DF43E111410ECA0C288D36FA21A /* SwiftKeychainWrapper */;
+			targetProxy = D3D41C4DC027FE7C15BD3C02E9776E39 /* PBXContainerItemProxy */;
+		};
+		56E25F3FF68A1BDA98F0EB44A8C045D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SignInWithAppleSwift;
 			target = 7D72D4162D482CEC1A4B27EE01369D01 /* SignInWithAppleSwift */;
-			targetProxy = 805694ECA759756294BB717D9A9CCBB0 /* PBXContainerItemProxy */;
+			targetProxy = 5C106761086615857816CF50DF625959 /* PBXContainerItemProxy */;
+		};
+		5F29E9FDFD34EFBFF9F61DDF969E9F5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SignInWithAppleSwift_Example";
+			target = F425032E84AA8226DA342DCA5FC887B5 /* Pods-SignInWithAppleSwift_Example */;
+			targetProxy = A3BCF49F018C801DD1DE23C96F11D303 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -459,7 +601,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -472,9 +614,40 @@
 			};
 			name = Debug;
 		};
-		58A8A0F7CCDB01026055E9C9E6B181CF /* Release */ = {
+		45B54083EF582B2FB146B3AEA93B4EFA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 979499EEFEF69A7E481F911D2A62DE18 /* Pods-SignInWithAppleSwift_Example.release.xcconfig */;
+			baseConfigurationReference = 41D401BCE38F3EB83636B4780E37387C /* SignInWithAppleSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SignInWithAppleSwift/SignInWithAppleSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SignInWithAppleSwift/SignInWithAppleSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SignInWithAppleSwift/SignInWithAppleSwift.modulemap";
+				PRODUCT_MODULE_NAME = SignInWithAppleSwift;
+				PRODUCT_NAME = SignInWithAppleSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46C11CA3AD3C6CCBD49C458EF98BA724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94EAB25C78ABC134D41E8E3DF799D6A0 /* Pods-SignInWithAppleSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -487,7 +660,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SignInWithAppleSwift_Example/Pods-SignInWithAppleSwift_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SignInWithAppleSwift_Example/Pods-SignInWithAppleSwift_Example.modulemap";
@@ -498,6 +671,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55A709D3441679E1E7DC70AD194365AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9D370359AADCA0963C43618AAB128C /* SwiftKeychainWrapper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper.modulemap";
+				PRODUCT_MODULE_NAME = SwiftKeychainWrapper;
+				PRODUCT_NAME = SwiftKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -520,7 +723,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SignInWithAppleSwift_Tests/Pods-SignInWithAppleSwift_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SignInWithAppleSwift_Tests/Pods-SignInWithAppleSwift_Tests.modulemap";
@@ -553,7 +756,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SignInWithAppleSwift_Tests/Pods-SignInWithAppleSwift_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SignInWithAppleSwift_Tests/Pods-SignInWithAppleSwift_Tests.modulemap";
@@ -564,6 +767,66 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92D2C1D08727835906C3C1550C4C53A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFB04FEB4458AA699A90B3398293537 /* SwiftKeychainWrapper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper.modulemap";
+				PRODUCT_MODULE_NAME = SwiftKeychainWrapper;
+				PRODUCT_NAME = SwiftKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD3F666AD3C8FFE9EF904311B80B7B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1651C3412BD1334CD935073C36639A5F /* SignInWithAppleSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SignInWithAppleSwift/SignInWithAppleSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SignInWithAppleSwift/SignInWithAppleSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SignInWithAppleSwift/SignInWithAppleSwift.modulemap";
+				PRODUCT_MODULE_NAME = SignInWithAppleSwift;
+				PRODUCT_NAME = SignInWithAppleSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -620,21 +883,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		DA0388293E9380D06E6F5DE36863F03E /* Debug */ = {
+		F5C6066D8E77F7A4A4493C8D6B8D8270 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94EAB25C78ABC134D41E8E3DF799D6A0 /* Pods-SignInWithAppleSwift_Example.debug.xcconfig */;
+			baseConfigurationReference = 979499EEFEF69A7E481F911D2A62DE18 /* Pods-SignInWithAppleSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -647,7 +909,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SignInWithAppleSwift_Example/Pods-SignInWithAppleSwift_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SignInWithAppleSwift_Example/Pods-SignInWithAppleSwift_Example.modulemap";
@@ -659,66 +921,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E936EF634B51B135313ADC7859BD1479 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE1340F29EC6AEBAAFA67DE15D892227 /* SignInWithAppleSwift.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SignInWithAppleSwift/SignInWithAppleSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SignInWithAppleSwift/SignInWithAppleSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SignInWithAppleSwift/SignInWithAppleSwift.modulemap";
-				PRODUCT_MODULE_NAME = SignInWithAppleSwift;
-				PRODUCT_NAME = SignInWithAppleSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EB466147FEA3D67D01352238F7CFB9DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EAAB3EF2586EDE51214376BE1D22F15 /* SignInWithAppleSwift.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SignInWithAppleSwift/SignInWithAppleSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SignInWithAppleSwift/SignInWithAppleSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SignInWithAppleSwift/SignInWithAppleSwift.modulemap";
-				PRODUCT_MODULE_NAME = SignInWithAppleSwift;
-				PRODUCT_NAME = SignInWithAppleSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -728,11 +930,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B5591EF4E0E5AB6193059CF36459010 /* Build configuration list for PBXNativeTarget "Pods-SignInWithAppleSwift_Example" */ = {
+		02170DB2A6F23B4C15BF15B21F70787C /* Build configuration list for PBXNativeTarget "Pods-SignInWithAppleSwift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA0388293E9380D06E6F5DE36863F03E /* Debug */,
-				58A8A0F7CCDB01026055E9C9E6B181CF /* Release */,
+				46C11CA3AD3C6CCBD49C458EF98BA724 /* Debug */,
+				F5C6066D8E77F7A4A4493C8D6B8D8270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -746,6 +948,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4DDB62A32A4DA66798ED0A92D8F3D37F /* Build configuration list for PBXNativeTarget "SignInWithAppleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3F666AD3C8FFE9EF904311B80B7B2A /* Debug */,
+				45B54083EF582B2FB146B3AEA93B4EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		67264A257325E8F94E8676B096CBF7D4 /* Build configuration list for PBXNativeTarget "Pods-SignInWithAppleSwift_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -755,11 +966,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74CBE05A9CCE5F673B6ADACB5D3EA07C /* Build configuration list for PBXNativeTarget "SignInWithAppleSwift" */ = {
+		767244CD7B829DA3FA5CA7882A75B74E /* Build configuration list for PBXNativeTarget "SwiftKeychainWrapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E936EF634B51B135313ADC7859BD1479 /* Debug */,
-				EB466147FEA3D67D01352238F7CFB9DA /* Release */,
+				92D2C1D08727835906C3C1550C4C53A9 /* Debug */,
+				55A709D3441679E1E7DC70AD194365AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

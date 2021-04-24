@@ -1,15 +1,22 @@
 PODS:
-  - SignInWithAppleSwift (0.1.0)
+  - SignInWithAppleSwift (0.1.0):
+    - SwiftKeychainWrapper
+  - SwiftKeychainWrapper (4.0.1)
 
 DEPENDENCIES:
   - SignInWithAppleSwift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftKeychainWrapper
 
 EXTERNAL SOURCES:
   SignInWithAppleSwift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SignInWithAppleSwift: ec4cef4de301729cadd118d358292c1c061c5563
+  SignInWithAppleSwift: 3cdff676e947adb8c486ed8109caf17ed23037e3
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
 
 PODFILE CHECKSUM: 7db53e29bfc87818f901295a9ac4e16f27cd69e6
 

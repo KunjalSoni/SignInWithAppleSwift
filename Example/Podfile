@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'SignInWithAppleSwift_Example' do
-  pod 'SignInWithAppleSwift', :path => '../'
+  pod 'SignInWithAppleSwift', :git => => '../'
 
   target 'SignInWithAppleSwift_Tests' do
     inherit! :search_paths
