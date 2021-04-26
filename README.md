@@ -1,6 +1,5 @@
 # SignInWithAppleSwift
 
-[![CI Status](https://img.shields.io/travis/Kunjal Soni/SignInWithAppleSwift.svg?style=flat)](https://travis-ci.org/Kunjal Soni/SignInWithAppleSwift)
 [![Version](https://img.shields.io/cocoapods/v/SignInWithAppleSwift.svg?style=flat)](https://cocoapods.org/pods/SignInWithAppleSwift)
 [![License](https://img.shields.io/cocoapods/l/SignInWithAppleSwift.svg?style=flat)](https://cocoapods.org/pods/SignInWithAppleSwift)
 [![Platform](https://img.shields.io/cocoapods/p/SignInWithAppleSwift.svg?style=flat)](https://cocoapods.org/pods/SignInWithAppleSwift)
@@ -9,16 +8,36 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Features
+  - Only one line of code to retrive user details
+  - Remembers previously authenticated user details using  'SwiftKeychainWrapper'
+  - No more minimum iOS 13 availablility conditions. Let us handle that for you!
+
 ## Requirements
+  - iOS 11.0+
+  - Xcode 11+
 
 ## Installation
+ **CocoaPods**
+ 
+- You can use CocoaPods to install SignInWithAppleSwift by adding it to your Podfile:
 
-SignInWithAppleSwift is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+        use_frameworks!
+        pod 'SignInWithAppleSwift'
 
-```ruby
-pod 'SignInWithAppleSwift'
-```
+- In the swift file, import SSSideMenu module:
+            
+        import UIKit
+        import SignInWithAppleSwift
+
+
+## Usage
+- Retrieve user details:
+            
+        SignInWithApple.shared.requestAuthorization(scope: [.email, .fullName], presentationContextProvider: self) { (result) 
+            print("error: ", result.error)
+            print("user details: ", result.userDetails)
+        }
 
 ## Author
 
