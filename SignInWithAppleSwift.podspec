@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kunjal Soni' => 'sonikunj141297@gmail.com' }
-  s.source           = { :git => 'https://github.com/Kunjal Soni/SignInWithAppleSwift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/KunjalSoni/SignInWithAppleSwift.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '12.0'
   s.swift_versions = '5.0'
