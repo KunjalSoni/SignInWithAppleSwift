@@ -32,9 +32,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 
 ## Usage
-- Retrieve user details:
+
+**Setup your app for Sign in with Apple capability:**
+1. Open your Xcode Project.
+2. Project Navigator→ Select Project → Select Target.
+3. In Project Editor, Click Signing & Capabilities.
+4. Add Capability by clicking the + button. Search for Sign In with Apple Capability in Capability Library.
+5. Double-click the capability to add.
+
+**Retrieve user details:**
             
-        SignInWithApple.shared.requestAuthorization(scope: [.email, .fullName], presentationContextProvider: self) { (result) 
+        SignInWithApple.shared.requestAuthorization(scope: [.email, .fullName], presentationsContextProvider: self) { (result) 
             print("error: ", result.error)
             print("user details: ", result.userDetails)
         }
